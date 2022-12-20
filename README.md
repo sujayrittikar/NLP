@@ -1,5 +1,5 @@
 # NLP_Basics
-This is a repository full of some basic notebooks illustrating NLP fundamental techniques. The notebooks are based on a MOOC by Jose Portilla and showcase how to code the different concepts in NLP.
+This is a repository full of some basic jupyter notebooks illustrating NLP fundamental techniques. The notebooks are based on a MOOC by Jose Portilla and showcase how to code the different concepts in NLP.
 
 The topics covered are:
 
