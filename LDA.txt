@@ -1,0 +1,31 @@
+- Latent Dirichlet Allocation is based off the probability distribution.
+
+Main Assumptions for LDA in Topic Modeling
+- Documents with similar topics use similar groups of words.
+- Latent topics can then be found by searching for groups of words that frequently occur together in documents across the corpus
+
+Important to Note:
+- Documents are probability distributions over latent topics.
+- Topics themselves are probability distributions over words.
+
+
+Documents -> Topics -> Words
+
+1. Decide on no. of words N the document will have.
+2. Choose a topic mixture for the document according to Dirichlet distribution over a fixed set of K topics.
+3. Generate each word in the document by:
+  - First picking a topic according to the multinomial distribution sampled previously. (in step 2)
+  - Using the topic to generate the word. ex: topic of food would generate 'apple'
+4. Backtrack from documents to find a set of topics that are likely to have generated the collection.
+
+
+K topics -> 
+LDA -> 
+topic representation of each document ->
+randomly assign each word in document to one of the K topics
+ for every word in every document:
+     p(topic t | document d) = proportion of words in document d currently assigned to topic t.
+     p(word w | topic t) = proportion of assignments to topic t over all documents that come from word w
+     Reassign w a new topic with probability, p(topic t | document d) * p(word w | topic t)
+       - This is the probability that topic t generated word w
+     Find words with highest probability of being assigned to topic t
