@@ -10,3 +10,5 @@ The topics covered so far are:
 5. Sklearn usage examples
 6. Text Classification - Spam/Ham - using Tfidf Vectorizer
 7. Text Classification - Movie Reviews - Random Forest Classifier
+8. Word2Vec - Basic usage
+9. VADER Sentiment Analysis
