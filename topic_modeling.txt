@@ -1,0 +1,5 @@
+Topic Modeling
+
+- We can't identify topics in unlabeled data using Supervised Machine Learning Models.
+- Depend upon the Unsupervised ML Algorithms.
+- We can't have correct answers to begin with and have to depend the core Topic Identification methods to find the similarities through their algorithms.
