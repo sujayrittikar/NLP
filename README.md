@@ -12,4 +12,5 @@ The topics covered so far are:
 7. Text Classification - Movie Reviews - Random Forest Classifier
 8. Word2Vec - Basic usage
 9. VADER Sentiment Analysis
-10. Latent Dirichlet Allocation (LDA)
+10. Latent Dirichlet Allocation (LDA) based Topic Modeling
+11. Non-Negative Matrix Factorization (NMF) based Topic Modeling
